@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: rgb(249, 249, 249);
+    font-family: 'Open Sans', Helvetica, sans-serif;
+    width: 310px;
+    height: 374px;
+    overflow: hidden;
+}
+
+header {
+    background-color: #323232;
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    color: #fff;
+}
+
+span {
+    position: relative;
+    top: -3px;
+    font-size: 25px;
+}
+
+.preload * {
+    animation: none !important;
+}
+
+@keyframes fadeOut {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-310px);
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        transform: translateX(310px);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+.page {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: #fff;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.08);
+    text-align: center;
+    border-radius: 6px;
+    width: 250px;
+    height: 254px;
+    margin: 10px;
+    padding: 20px;
+
+    transform: translateX(310px);
+
+    animation-fill-mode: forwards;
+    animation-name: fadeOut;
+    animation-duration: 1s;
+}
+
+.page.active {
+    transform: translateX(0);
+
+    animation-fill-mode: forwards;
+    animation-name: fadeIn;
+    animation-duration: 1s;
+}
+
+.scrollable {
+    overflow-y: auto;
+}
+
+.container {
+    border: solid 1px #e0e0e0;
+    border-radius: 4px;
+}
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid #e0e0e0;
+}
+
+h1 {
+    color: #ff8a00;
+    font-weight: 100;
+    letter-spacing: -1;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+p {
+    color: #aaa;
+    margin-bottom: 30px;
+}
+
+.error {
+    color: red;
+    margin-top: 15px;
+}
+
+input::-webkit-input-placeholder {
+    color: #aaa;
+    text-transform: uppercase;
+}
+
+input[type="text"], input[type="password"] {
+    display: block;
+    width: 90%;
+    border: none;
+    padding: 10px;
+    outline: 0;
+}
+
+input[type="button"] {
+    color: #fff;
+    background: #ff8a00;
+    border-radius: 100px;
+    text-transform: uppercase;
+    border: none;
+    outline: 0;
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+input:hover[type="button"] {
+    background: linear-gradient(to bottom, #f2b63a 0%, #f58e39 100%);
+}
+
+.selection {
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    margin-right: 10px;
+}
+
+h2 {
+    color: #444;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
