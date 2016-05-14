@@ -8,4 +8,4 @@ and more! To indicate that your library contains the media, Plexify adds a
 small, non-intrusive badge to the page.
 
 ## Copyright
-- The [Plex](https://plex.tv/) name and logo is property of Plex, Inc.
+- The [Plex](https://plex.tv/) name and logo are property of Plex, Inc.

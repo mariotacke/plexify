@@ -4,7 +4,7 @@
         "description": "Extension Name"
     },
     "appDescription": {
-        "message": "Plexify lets you connect to your Plex account to check if your library contains certain media while browsing popular websites like IMDb, Rotten Tomatoes, and more!",
+        "message": "Connect to your Plex account and see if you own media while browsing popular websites like IMDb, Rotten Tomatoes, and more!",
         "description": "Extension Description"
     }
 }
