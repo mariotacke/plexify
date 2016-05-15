@@ -7,5 +7,8 @@ library contains certain media while browsing popular websites like
 and more! To indicate that your library contains the media, Plexify adds a
 small, non-intrusive badge to the page.
 
+## Chrome Web Store
+- Add to Chrome from the web store. [Plexify on Chrome Web Store](https://chrome.google.com/webstore/detail/plexify/cgckffknepmgikkhnildjodfjobncckg)
+
 ## Copyright
 - The [Plex](https://plex.tv/) name and logo are property of Plex, Inc.
